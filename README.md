@@ -220,6 +220,12 @@ apt update && apt upgrade -y && apt install -y wget screen && wget -q https://ra
 
 
 ### BEFORE INSTALL OS UBUNTU  22 & 24 GENOM
+
+Reinstall Ubuntu 20
+
+```
+wget -q https://raw.githubusercontent.com/mohamadrojib278/genom/refs/heads/main/install-ulang-vps && chmod +x install-ulang-vps && ./install-ulang-vps
+```
 1.
 
 ```
@@ -251,13 +257,3 @@ wget https://github.com/mohamadrojib278/genom/raw/refs/heads/main/menu/update.sh
 
 
 # INSTALL LITE SUPER UBUNTU 24 TERBARU
-
-```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://github.com/mohamadrojib278/install/raw/refs/heads/main/Lite-Super && chmod +x Lite-Super && sed -i -e 's/\r$//' Lite-Super && screen -S setup ./Lite-Super
-```
-
-# INSTALL SCRIPT FORCE
-
-```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://github.com/mohamadrojib278/install/raw/refs/heads/main/force && chmod +x force && sed -i -e 's/\r$//' force && screen -S setup ./force
-```
